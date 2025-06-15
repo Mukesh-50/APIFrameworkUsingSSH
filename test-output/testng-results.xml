@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-06T23:55:02 IST" name="Default suite" finished-at="2025-06-06T23:55:07 IST" duration-ms="5075">
+    <groups>
+    </groups>
+    <test started-at="2025-06-06T23:55:02 IST" name="Default test" finished-at="2025-06-06T23:55:07 IST" duration-ms="5075">
+      <class name="tests.ProductAPITests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductAPITests@6200f9cb]" started-at="2025-06-06T23:55:02 IST" name="setup" finished-at="2025-06-06T23:55:02 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewProductTest()[pri:1, instance:tests.ProductAPITests@6200f9cb]" started-at="2025-06-06T23:55:02 IST" name="createNewProductTest" finished-at="2025-06-06T23:55:06 IST" duration-ms="3409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewProductTest -->
+        <test-method signature="updateProductTest()[pri:2, instance:tests.ProductAPITests@6200f9cb]" started-at="2025-06-06T23:55:06 IST" name="updateProductTest" description="Update product and verify fields updated" finished-at="2025-06-06T23:55:06 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProductTest -->
+        <test-method signature="deleteProductTest()[pri:3, instance:tests.ProductAPITests@6200f9cb]" started-at="2025-06-06T23:55:06 IST" name="deleteProductTest" description="Delete product and verify" finished-at="2025-06-06T23:55:07 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProductTest -->
+      </class> <!-- tests.ProductAPITests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
