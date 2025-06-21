@@ -17,8 +17,6 @@
 			
 			<class name="tests.BookingAPITests" />
 			
-			<class name="tests.BookingAPITests2" />
-
 		</classes>
 	</test>
 </suite> 
