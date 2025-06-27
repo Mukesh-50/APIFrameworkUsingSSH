@@ -29,7 +29,7 @@ public class BaseTest
 
 		ConfigReader config = new ConfigReader();
 
-		String baseurl = config.get("baseURLProduct");
+		String baseurl = config.get("baseURL");
 		
 		ChainTestListener.log("LOG:INFO- Setting up RequestSpecification and ResponseSpecification For All API Test");
 
